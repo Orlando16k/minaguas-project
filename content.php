@@ -38,5 +38,22 @@ if (!isset($_GET['page']) || $_GET['page'] == "") {
     if ($_GET['page'] == "show") {
         include "pages/show.php";
     }
-   
+    if ($_GET['page'] == "calidad_graficas") {
+        include "pages/calidad.php";
+    }
+    if ($_GET['page'] == "monitoreo") {
+        include "pages/monitoreo.php";
+    }
+    if ($_GET['page'] == "situacion") {
+        include "pages/situacion.php";
+    }
+    if ($GET['page'] == "seguimiento") {
+        include "pages/seguimiento.php";
+    }
+    if ($_GET['page']=="graficas_seguimiento") {
+        include "pages/graficas_seguimiento.php";
+    }
+    if ($_GET['page']=="consultas_reportes") {
+        include "pages/consultas_reportes.php";
+    }
 }

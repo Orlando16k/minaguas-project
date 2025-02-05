@@ -362,7 +362,6 @@ while ($row < count($datos_embalses)) {
     mapa_portada.scrollWheelZoom.disable();
 
     L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png', {
-        attribution: '© OpenStreetMap contributors'
     }).addTo(mapa_portada);
 
     // L.tileLayer('https://{s}.tile.thunderforest.com/atlas/{z}/{x}/{y}.png?apikey={apikey}', {

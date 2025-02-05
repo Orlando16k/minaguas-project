@@ -32,8 +32,8 @@ if (contiene_subcadena($fullPath, "C:")) {
         //$host = "54.232.118.19";
         $host = "localhost";
         $user = "root";
-        $pass = "xsM6U1teIzPGP6g";
-        $dbname = "sima_db";
+        $pass = "";
+        $dbname = "minagua_db";
     }
 }
 

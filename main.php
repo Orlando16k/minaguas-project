@@ -39,16 +39,16 @@ header('Content-Type: text/html; charset=UTF-8');
     SIMA
   </title>
   <!--     Fonts and icons     -->
-  <link href="./assets/fonts/fuente.css" rel="stylesheet" />
+  <link href="./assets/fonts/fuente.css" rel="stylesheet">
   <!--link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"-->
   <!-- Nucleo Icons -->
-  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+  <link href="./assets/css/nucleo-icons.css" rel="stylesheet">
+  <link href="./assets/css/nucleo-svg.css" rel="stylesheet">
   <!-- Font Awesome Icons -->
   <script src="./assets/js/fontawesome/42d5adcbca.js"></script>
   <script src="./assets//js/sweetalerts.js"></script>
   <!-- CSS Files -->
-  <link id="pagestyle" href="./assets/css/argon-dashboard.css?v=2.0.4" rel="stylesheet" />
+  <link id="pagestyle" href="./assets/css/argon-dashboard.css?v=2.0.4" rel="stylesheet">
 
   <script type="text/javascript" src="./assets/js/jquery/jquery.min.js"></script>
 
@@ -200,7 +200,7 @@ header('Content-Type: text/html; charset=UTF-8');
         <nav aria-label="breadcrumb" id="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
             <li class="breadcrumb-item text-sm modulo"><a class="opacity-5 text-white" href="javascript:;"></a></li>
-            <li class="breadcrumb-item text-sm text-white submodulo active" aria-current="page">Dashboard</li>
+            <li class="breadcrumb-item text-sm text-white submodulo active" aria-current="page"></li>
           </ol>
           <!--<h6 class="font-weight-bolder text-white mb-0">Dashboard</h6>-->
         </nav>
